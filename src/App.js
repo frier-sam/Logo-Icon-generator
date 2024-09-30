@@ -1,6 +1,5 @@
 import React, { useRef, useState, useCallback } from "react";
-import { Container, Box, Button, Input, Typography, AppBar, Toolbar, IconButton, Checkbox, FormControlLabel, Paper, Popper } from "@mui/material";
-import MenuIcon from "@mui/icons-material/Menu";
+import { Container, Box, Button, Typography, AppBar, Toolbar, Checkbox, FormControlLabel, Paper, Popper } from "@mui/material";
 import Cropper from "react-cropper";
 import "cropperjs/dist/cropper.css";
 import JSZip from "jszip";
@@ -27,7 +26,6 @@ function App() {
   const [image, setImage] = useState(null);
   const cropperRef = useRef(null);
   const [backgroundColor, setBackgroundColor] = useState("transparent");
-  const colorInputRef = useRef(null);
   const [isColorPickerOpen, setIsColorPickerOpen] = useState(false);
   const anchorRef = useRef(null);
   const [colorPickerType, setColorPickerType] = useState("hex");
