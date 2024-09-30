@@ -1,1 +1,1 @@
-demo - ogo-icon-generator.netlify.app
+demo - [logo-icon-generator.netlify.app](https://logo-icon-generator.netlify.app)
