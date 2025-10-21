@@ -3,21 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.13.3",
-    "@emotion/styled": "^11.13.0",
-    "@mui/icons-material": "^6.1.1",
-    "@mui/material": "^6.1.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "cropperjs": "^1.6.2",
     "file-saver": "^2.0.5",
+    "ico-endec": "^0.1.6",
     "jszip": "^3.10.1",
+    "lucide-react": "^0.546.0",
     "react": "^18.3.1",
     "react-colorful": "^5.6.1",
     "react-cropper": "^2.3.3",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^3.4.18",
+    "tailwindcss-animate": "^1.0.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -43,5 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6"
   }
 }
